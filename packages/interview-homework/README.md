@@ -1,7 +1,7 @@
 # Secberus Frontend Mid-Principal Engineer task
 
 ## Situation
-The year is 2021 - the Zombie apocalypse has started, and the virus spreads through the air. Only those who socially distance at least one home from another will be safe.
+The year is 2021 - the Zombie apocalypse has started, and the virus spreads through the air. Only those who distance at least one home from another will be safe.
 
 You have been asked by the government of your province to generate a model of the spread of zombies in order to preview the coming days. As of right now, our doctors claim that zombies will spread the infection by one home per day. However, due to the grid-style of your town, it can only spread north (up), south (down), west (left) and right (east). Additionally, zombies can not jump over empty homes.
 
@@ -10,10 +10,11 @@ Our top scientists are finishing a cure for the infected soon, but this relies o
 You will be given a data-map of current homes, with known infected homes - show the spread step by step, and the ending result with how many days, if all are infected, remain. The government will move people around if the situation is grim.
 
 Data map:
-
+```
 0 = Empty Home
 1 = Healthy Home
 2 = Zombie Home
+```
 
 ```
 
