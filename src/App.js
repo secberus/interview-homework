@@ -1,18 +1,20 @@
 import React from 'react';
+import {Provider} from 'react-redux';
 import { ThemeProvider } from 'styled-components/macro';
-import { Provider } from 'react-redux';
+import Index from './screens/index';
+import theme from './config/theme';
+
 import createStore from './redux/configureStore';
-import Routes from './utils/routing';
-import theme, {GlobalStyle} from './config/theme';
+
 
 const store = createStore();
 
+// Clean up the handleTheme if you think it is necessary.
 const App = () => {
   return (
-    <Provider {...{store}}>
-      <ThemeProvider {...{theme}}>
-        <GlobalStyle />
-        <Routes />
+    <Provider store={store} >
+      <ThemeProvider theme={theme}>
+        <Index/>
       </ThemeProvider>
     </Provider>
   );

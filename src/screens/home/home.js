@@ -1,7 +1,10 @@
 import React from 'react';
+import { TextContainer } from './Styled';
 
 const Home = () => (
-  <h1>Zombies</h1>
+  <TextContainer>
+    Zombies
+  </TextContainer>
 )
 
 export default Home;
