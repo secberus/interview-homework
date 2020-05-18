@@ -106,18 +106,15 @@ You have been provided with the following
   - HealthyHome.svg (Blue roof)
   - ZombieHome.svg (Green roof)
   - EmptyHome.svg (Gray roof)
-- Three static matrices `/src/constants/matrices`
+- Three static inputs `/src/constants/matrices`
 
-## Optional Items
+## Optional Items (These aren't required)
 - Add dependencies, but dependencies already listed are required.
 - Add, remove, or change documentation at will.
 - Write tests of your choice (None, Integration, Unit, TDD)
-- Write a matrices generator
-
-## For fun
+- Write an input generator / algorithm
+- Add a graphing option - we use ChartJS at SECBERUS, but feel free to use any charts you wish
 - Feel free to implement typescript into the build process. We love any JS!
-
-
 
 # Create React App Info:
 
