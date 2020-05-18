@@ -99,8 +99,9 @@ Option 2 (with a private fork):
 
 ## Included items
 You have been provided with the following
+- Basic project structure
 - Boilerplate Immer-based Redux store, and a basic reducer/action.
-  - Includes Redux-Thunk and Redux-Logger
+  - Includes Redux-Thunk and Redux-Logger middlewares
 - Styled components global styling and theme provider
 - Three SVG files located in the /public folder. Make sure you use these to portay homes in the view. 
   - HealthyHome.svg (Blue roof)
@@ -111,10 +112,17 @@ You have been provided with the following
 ## Optional Items (These aren't required)
 - Add dependencies, but dependencies already listed are required.
 - Add, remove, or change documentation at will.
-- Write tests of your choice (None, Integration, Unit, TDD)
+- Write tests of your choice (Integration, Unit, TDD)
 - Write an input generator / algorithm
 - Add a graphing option - we use ChartJS at SECBERUS, but feel free to use any charts you wish
-- Feel free to implement typescript into the build process. We love any JS!
+- Feel free to implement TypeScript into the build process. We love any JS!
+- Add any lint you wish (Prettier, es/tslint)
+
+# Contributors
+- Sigkar
+- Colemars
+
+
 
 # Create React App Info:
 
