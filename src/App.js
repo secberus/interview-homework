@@ -9,7 +9,6 @@ import createStore from './redux/configureStore';
 
 const store = createStore();
 
-// Clean up the handleTheme if you think it is necessary.
 const App = () => {
   return (
     <Provider store={store} >
