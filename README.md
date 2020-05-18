@@ -1,13 +1,15 @@
-# Secberus Frontend Mid-Principal Engineer task
+<h1 style="text-align: center">SECBERUS Frontend Homework Task</h1>
 
-## Situation
+<span style="font-family:monospace">
+<h3>Situation</h3>
 The year is 2021 - the Zombie apocalypse has started, and the virus spreads through the air. Only those who distance at least one home from another will be safe.
 
 You have been asked by the government of your province to generate a model of the spread of zombies in order to preview the coming days. As of right now, our doctors claim that zombies will spread the infection by one home per day. However, due to the grid-style of your town, it can only spread north (up), south (down), west (left) and right (east). Additionally, zombies can not jump over empty homes.
 
-Our top scientists are finishing a cure for the infected soon, but this relies on all of humanity not being infected.
+Our top scientists are finishing a cure for the infected soon, but this relies on all of humanity not being infected. We need to buy them enough time to get the cure available.
 
 You will be given a data-map of current homes, with known infected homes - show the spread step by step, and the ending result with how many days, if all are infected, remain. The government will move people around if the situation is grim.
+</span>
 
 Data map:
 ```
@@ -42,8 +44,7 @@ Data map:
 Your community will be totally infected in 4 day(s)
 ```
 
-However, due to the above model, we can assume that with effective social
-distancing, we can wait for all of this "to blow over while we are at the winchester"
+However, due to the above model, we can assume that with effective distancing, we can wait for all of this "to blow over while we are at the winchester"
 ```
 // A case with effective social distancing
 
@@ -66,16 +67,37 @@ distancing, we can wait for all of this "to blow over while we are at the winche
   [2, 0, 0, 0, 2, 0],
   [2, 2, 0, 0, 2, 0]
 ]
-Your community will prevail.
-
+Not all will be infected, and the infected will be cured!
+// Note: Show the step after, which cures all individuals who have been infected in this case.
 ```
 
-## Requirements
+## Instructions
+### Setup
+***This app was generated via create-react-app.***
+- Fork the repository
+  - Use yarn to prep the environment.
 
+### Task
+- Show the spread of the zombies on the page with at least a 1 second pause between spreads.
+- Once the spread is complete, show all stages as left/right arrow keys.
+- Use the SVG images given
 
-## Extras 
-If time allows, feel free to include integration tests or unit tests if you are not
-following TDD.
+## Included items
+You have been provided with the following
+- Boilerplate Immer-based Redux store, and a basic reducer/action.
+  - Includes Redux-Thunk and Redux-Logger
+- Styled components global styling and theme provider
+- Three SVG files located in the /public folder. Make sure you use these to portay homes in the view. 
+  - HealthyHome.svg (Blue roof)
+  - ZombieHome.svg (Green roof)
+  - EmptyHome.svg (Gray roof)
+- Three static matrices `/src/constants/matrices`
+
+## Optional Items
+- Add dependencies, but dependencies already listed are required.
+- Add, remove, or change documentation at will.
+- Write tests of your choice (None, Integration, Unit, TDD)
+- Write a matrices generator
 
 ## For fun
 Feel free to implement typescript into the build process.
@@ -118,3 +140,4 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+</span>
