@@ -1,7 +1,6 @@
-<h1 style="text-align: center">SECBERUS Frontend Homework Task</h1>
+# SECBERUS Frontend Homework Task
 
-<span style="font-family:monospace">
-<h3>Situation</h3>
+### Situation
 The year is 2021 - the Zombie apocalypse has started, and the virus spreads through the air. Only those who distance at least one home from another will be safe.
 
 You have been asked by the government of your province to generate a model of the spread of zombies in order to preview the coming days. As of right now, our doctors claim that zombies will spread the infection by one home per day. However, due to the grid-style of your town, it can only spread north (up), south (down), west (left) and right (east). Additionally, zombies can not jump over empty homes.
@@ -9,7 +8,6 @@ You have been asked by the government of your province to generate a model of th
 Our top scientists are finishing a cure for the infected soon, but this relies on all of humanity not being infected. We need to buy them enough time to get the cure available.
 
 You will be given a data-map of current homes, with known infected homes - show the spread step by step, and the ending result with how many days, if all are infected, remain. The government will move people around if the situation is grim.
-</span>
 
 Data map:
 ```
@@ -74,13 +72,30 @@ Not all will be infected, and the infected will be cured!
 ## Instructions
 ### Setup
 ***This app was generated via create-react-app.***
-- Fork the repository
+- Fork the repository on github.com (Private or public, whichever works for you)
   - Use yarn to prep the environment.
+- Do not create a pull request into the homework repository
 
 ### Task
-- Show the spread of the zombies on the page with at least a 1 second pause between spreads.
-- Once the spread is complete, show all stages as left/right arrow keys.
+- Show the spread of the zombies on the page with at least a 1 second pause between spread.
+- Once the spread is complete, show all stages as left/right carets.
+  - Feel free to just use < or >, be creative with CSS, or install an icon dependency.
+
 - Use the SVG images given
+  - How you implement these SVGs is up to you.
+
+- Enjoy the task and be creative!
+
+### Upon completion
+Option 1:
+- Zip your directory and email frontend@secberus.com with the .zip file and answer inside
+  - Format your subject as follows
+    - `%Your name here% - Completed interview homework (Zip)`
+
+Option 2 (with a private fork):
+- Invite @colemars and @sigkar to your private repository once you have completed the task
+  - Email frontend@secberus.com and format your subject as follows
+    - `%Your name here% - Completed interview homework (Invitation)`
 
 ## Included items
 You have been provided with the following
@@ -100,11 +115,11 @@ You have been provided with the following
 - Write a matrices generator
 
 ## For fun
-Feel free to implement typescript into the build process.
+- Feel free to implement typescript into the build process. We love any JS!
 
 
 
-### Mentions:
+# Create React App Info:
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -140,4 +155,3 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-</span>
