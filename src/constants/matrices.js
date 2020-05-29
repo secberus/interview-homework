@@ -31,3 +31,9 @@ const CASE_THREE = [
   [0, 0, 0, 0, 1, 0, 0, 0, 0],
   [1, 0, 1, 1, 1, 1, 1, 1, 1]
 ]
+
+export {
+  CASE_ONE,
+  CASE_TWO,
+  CASE_THREE
+}

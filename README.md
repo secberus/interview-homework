@@ -78,6 +78,7 @@ Not all will be infected, and the infected will be cured!
 
 ### Task
 - Show the spread of the zombies on the page with at least a 1 second pause between spread.
+- Show the newly infected homes as the InfectedHome svg (Light green) per turn.
 - Once the spread is complete, show all stages as left/right carets.
   - Feel free to just use < or >, be creative with CSS, or install an icon dependency.
 
@@ -103,10 +104,11 @@ You have been provided with the following
 - Boilerplate Immer-based Redux store, and a basic reducer/action.
   - Includes Redux-Thunk and Redux-Logger middlewares
 - Styled components global styling and theme provider
-- Three SVG files located in the /public folder. Make sure you use these to portay homes in the view. 
+- Four SVG files located in the /public folder. Make sure you use these to portay homes in the view. 
   - HealthyHome.svg (Blue roof)
   - ZombieHome.svg (Green roof)
   - EmptyHome.svg (Gray roof)
+  - InfectedHome.svg (Light Green Roof)
 - Three static inputs `/src/constants/matrices`
 
 ## Optional Items (These aren't required)
