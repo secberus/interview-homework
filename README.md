@@ -77,15 +77,20 @@ Not all will be infected, and the infected will be cured!
 - Do not create a pull request into the homework repository
 
 ### Task
-- Show the spread of the zombies on the page with at least a 1 second pause between spread.
+- Show the spread of the zombies per day, with the day count visible.
+  - Show the spread on the page with at least a 1 second pause between spread.
 - Show the newly infected homes as the InfectedHome svg (Light green) per turn.
-- Once the spread is complete, show all stages as left/right carets.
-  - Feel free to just use < or >, be creative with CSS, or install an icon dependency.
-
+- Once the spread is complete, show all stages as a carousel
+  - Feel free to just use < or >, be creative with CSS, use buttons, or install an icon dependency.
+> Read the above for expected input / output for the final stage.
+- Use the implemented redux store to manage zombies
 - Use the SVG images given
   - How you implement these SVGs is up to you.
+  - Change the color of the healthy roof to your favorite color or blue
 
 - Enjoy the task and be creative!
+
+Feel free to ask questions over email
 
 ### Upon completion
 Option 1:
@@ -105,7 +110,7 @@ You have been provided with the following
   - Includes Redux-Thunk and Redux-Logger middlewares
 - Styled components global styling and theme provider
 - Four SVG files located in the /public folder. Make sure you use these to portay homes in the view. 
-  - HealthyHome.svg (Blue roof)
+  - HealthyHome.svg (Red roof)
   - ZombieHome.svg (Green roof)
   - EmptyHome.svg (Gray roof)
   - InfectedHome.svg (Light Green Roof)
