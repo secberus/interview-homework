@@ -1,3 +1,62 @@
+# SECBERUS Live React coding challenge
+> Instructions are short, sweet, and to the point. Ask questions if something is unclear. This task shouldnt take more than around an hour
+
+## Situation
+It's saturday, you got your hat on backwards, and it's time to party. You've been planning for this day all week, and you've decided that the best way to keep track of what you need to do is with a react-web application.
+
+## Task
+This will be a simulated team coding session.
+- Create a list of items from /src/constants/TodoList.js
+  - For each object, array, set, map, or list, make it a child in the tree.
+- Make each item individually checkable. Checking a parent will check all children.
+  - When an item is checked, make it a strikethrough, disabled-color, use an icon, or whatever you prefer, but it must be obvious that the item has been completed.
+> Feel free to change the names of items in the list, but dont change structure. IE: If you dont eat eggs, you can change eggs to something vegan / else.
+
+#### Example input
+```
+{
+  "Item 1": [
+    "Item 1a", "Item 1b"
+  ],
+  "Item 2": {
+    "Item 2a": [
+      "Item 2I",
+      "Item 2II",
+    ],
+  },
+}
+```
+
+#### Example output
+> (As markup, this would be on the page rendered with elements, not text)
+```
+[ ] Item 1
+  [ ] Item 1a
+  [ ] Item 1b
+[ ] Item 2
+  [ ] Item 2a
+    [ ] Item 2I
+    [ ] Item 2II
+```
+### Skillset:
+- Use Redux to manage tasks
+  - Use immer to manage the immutability of the state
+- Hooks/Functional components are _preferred_.
+
+### Purpose of task
+- Simple test to show skills traversing complex/inconsistent datasets
+- Skills in generic React/Redux
+
+### Extra Flex-points (Dont think about these too much.)
+- Make the item parents able to expand/contract their children
+- Make it pretty
+- Be able to create/remove items in the list.
+- Compliance for ADA (aria-compliance, etc)
+
+## Extra info
+
+You can add or change dependencies, but existing dependencies must stay.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
