@@ -123,6 +123,7 @@ You have been provided with the following
 - Write an input generator / algorithm
 - Add a graphing option - we use ChartJS at SECBERUS, but feel free to use any charts you wish
 - Feel free to implement TypeScript into the build process. We love any JS!
+- Flex on your redux knowledge by updating the store using the latest best practices
 - Add any lint you wish (Prettier, es/tslint)
 
 # Contributors
